@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context="com.luxola.sephora.happyshop.activities.ProductDetailActivity"
+    >
+
+    <ImageView
+        android:id="@+id/productImageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitCenter"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:maxLines="2"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10.00"/>
+
+            <TextView
+                android:id="@+id/productSale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:text="On Sale"
+                android:textColor="@android:color/holo_red_light"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addCartButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d15f64"
+        android:text="Add to Cart"
+        android:textColor="#ffffff"
+        android:onClick="addCartClicked"/>
+
+    <TextView
+        android:id="@+id/productDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descriptin Here"/>
+
+</LinearLayout>

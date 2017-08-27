@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#cce9cf</color>
+
+    <!--splash bg color-->
+    <color name="splash_bg_color">#000000</color>
+
+    <!--category item divider color-->
+    <color name="divider_color">#000000</color>
+
+    <!--category list item colors-->
+    <color name="selected_color">#f1f1f1</color>
+    <color name="un_selected_color">#ffffff</color>
+</resources>

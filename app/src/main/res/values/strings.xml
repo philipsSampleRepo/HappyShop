@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HappyShop</string>
+    <string name="title_activity_main_menu_drawer">Categories</string>
+
+    <!--main drawer activity errors -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--loading messages-->
+    <string name="loading_message">Fetching products. Please wait...</string>
+
+</resources>
